@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- SEO Básico -->
+    <title>Biblioteca Virtual de Curuçá - Acervo Histórico do Pará</title>
+    <meta name="description" content="Explore o acervo histórico de Curuçá, Pará. Livros, jornais antigos, fotografias e documentos raros para download gratuito. Preservando a memória da 'Terra do Folclore'.">
+    <meta name="keywords" content="Curuçá, Pará, História, História Local, História de Curuçá, Biblioteca Virtual, Acervo Histórico, Curuçá-PA, História do Pará, Documentos Antigos, Fotografias de Curuçá">
+    <meta name="author" content="Casa da História Curuçaense">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / Instagram -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bibliotecacuruca.netlify.app/">
+    <meta property="og:title" content="Biblioteca Virtual de Curuçá - Preservando a Nossa História">
+    <meta property="og:description" content="Acesse gratuitamente livros, jornais e fotos históricas do município de Curuçá, Pará.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=1200">
+    <meta property="og:site_name" content="Biblioteca Virtual de Curuçá">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Biblioteca Virtual de Curuçá - Acervo Histórico">
+    <meta property="twitter:description" content="Explore documentos, livros e fotos antigas de Curuçá, no Pará. Download gratuito.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=1200">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+        .font-serif-library {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Previne o flash branco durante o carregamento */
+        #root {
+            min-height: 100vh;
+        }
+        /* Ajuste de scroll para navegadores que suportam */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #444;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-slate-900">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
